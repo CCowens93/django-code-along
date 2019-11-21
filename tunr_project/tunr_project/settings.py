@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'django_extensions',
     'tunr_app'
 ]
 
@@ -85,6 +84,9 @@ DATABASES = {
         'HOST': 'localhost'
     }
 }
+
+# REST framework permissions
+
 
 
 # Password validation
